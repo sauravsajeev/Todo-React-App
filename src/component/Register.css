@@ -1,4 +1,8 @@
-
+@media (min-width: 100px) and (max-width: 767px){
+    .formContainer{
+        max-width: 70%;
+    }
+}
 .formContainer {
     position: relative;
     background-color: rgb(185, 240, 255);
@@ -24,7 +28,10 @@
     -ms-transform: translate(-50%, 150%);
     -o-transform: translate(-50%, 150%);
 }
-  
+.formContainer:hover{
+    box-shadow: rgb(0, 0, 0) 0px 5px 80px;
+    width:404px;
+}
   .formGroup {
     margin-bottom: 15px;
   }
