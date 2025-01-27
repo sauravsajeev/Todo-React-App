@@ -1,9 +1,9 @@
-import Todo from "./component/todo";
+import UsernameForm from "./component/Register.js";
 
 function App() {
   return (
     <div className="App">
-     <Todo/>
+     <UsernameForm/>
     </div>
   );
 }

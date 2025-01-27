@@ -47,7 +47,6 @@ body{
 h1{
     color:rgb(49, 49, 49);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    text-decoration: underline;
 }
 button{
    background-color:transparent;
@@ -129,4 +128,11 @@ li label span{
 }
 .deleteBut:hover{
     box-shadow: rgba(137, 229, 255, 0.856) 0px 5px 20px;
+}
+FontAwesomeIcon{
+    align-items: center;
+}
+.editinput{
+    width:110px;
+    margin-left:2px;
 }
